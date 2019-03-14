@@ -1,0 +1,58 @@
+body {
+  background-image:url("bulldog.jpg");
+  background-color:#F0ECEE;
+}
+#me span {
+  color:#FF4850;
+}
+#contact-us {
+  color:#FFF;
+  background-color:#FF4850;
+  border-radius: 15px;
+  padding: 10px;
+}
+#adopting{
+  color:#FF4850;
+}
+#find-out-how {
+  color:#FFF;
+  background-color:#FF4850;
+  border-radius: 15px;
+  padding: 10px;
+}
+li {
+  font-weight:400;
+  color:#88898B;
+  float:right;
+  text-decoration:none;
+}
+ul{
+  list-style-type:none;
+}
+#about-us:hover {
+  color:#FF4850;
+  background-color:#CCC;
+}
+#what-we-do:hover {
+  color:#FF4850;
+  background-color:#CCC;
+}
+#benefits:hover {
+  color:#FF4850;
+  background-color:#CCC;
+}
+#our-buddies:hover {
+  color:#FF4850;
+  background-color:#CCC;
+}
+#contact-us:hover {
+  color:#FF4850;
+  background-color:#CCC;
+}
+#find-out-how:hover {
+  color:#FF4850;
+  background-color:#CCC;
+}
+p {
+  color:#88898B;
+}
