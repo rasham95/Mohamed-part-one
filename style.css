@@ -2,7 +2,7 @@ body {
   background-image:url("bulldog.jpg");
   background-color:#F0ECEE;
 }
-#me span {
+#me {
   color:#FF4850;
 }
 #contact-us {
@@ -11,7 +11,7 @@ body {
   border-radius: 15px;
   padding: 10px;
 }
-#adopting{
+#adopting {
   color:#FF4850;
 }
 #find-out-how {
@@ -26,7 +26,7 @@ li {
   float:right;
   text-decoration:none;
 }
-ul{
+ul {
   list-style-type:none;
 }
 #about-us:hover {
