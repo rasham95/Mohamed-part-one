@@ -1,6 +1,15 @@
+*{
+  font-family: 'Fira Sans', sans-serif;
+}
 body {
-  background-image:url("bulldog.jpg");
+  background-image:url(images/bulldog.jpg) no-repeat;
   background-color:#F0ECEE;
+}
+#adopt-me {
+  flex-wrap: wrap;
+  position: absolute;
+  left: 0;
+  font weight: 400;
 }
 #me {
   color:#FF4850;
@@ -10,6 +19,7 @@ body {
   background-color:#FF4850;
   border-radius: 15px;
   padding: 10px;
+  font-weight: 300;
 }
 #adopting {
   color:#FF4850;
@@ -19,6 +29,7 @@ body {
   background-color:#FF4850;
   border-radius: 15px;
   padding: 10px;
+  font-weight; 300;
 }
 li {
   font-weight:400;
@@ -55,4 +66,17 @@ ul {
 }
 p {
   color:#88898B;
+}
+@media (min-width: 768px) {
+    body {
+        background-image: none;
+        background-color: #F0ECEE;
+        display: flex;
+  }
+    ul {
+    flex: 50%;
+  }
+  #find-out-how {
+    width: 100%;
+  } 
 }
